@@ -1,0 +1,136 @@
+1. Landingspage:
+
+body {
+    display: flex;
+    flex-direction: column;     /* zet elementen onder elkaar */
+    justify-content: center;    /* centreert de titel verticaal */
+    align-items: center;        /* centreert de titel horizontaal */
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+  }
+  
+  /* Tekst bovenaan links */
+  .intro {
+    position: absolute;
+    top: 20px;         /* afstand van de bovenrand */
+    left: 20px;        /* afstand van de linkerrand */
+    color: rgb(206, 206, 206);
+    font-size: 27px;
+    max-width: 500px;  /* optioneel: breedte beperken */
+  }
+  
+  .titel {
+    display: flex;              /* zet de onderdelen naast elkaar */
+    align-items: center;
+    gap: 10px;                  /* ruimte tussen woorden en streep */
+    font-size: 50px;
+    font-weight: bold;
+
+  }
+  
+  .zwart {
+    color: black;
+    padding: 5px 10px;
+    border-radius: 8px;
+  }
+  
+  .wit {
+    color: white;
+  }
+  
+  /* Buttons linksonder */
+  .btn {
+    position: fixed;
+    bottom: 50px;
+    left: 100px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 12px 28px;    /* omhulsel */
+    border-radius: 10px;
+    font-weight: bold;
+    z-index: 10; /* knop blijft boven achtergrond */
+  }
+  
+  /* 2e knop naar rechts */
+  .btn-second {
+    left: 250px;
+  }
+  
+  /* Hover effect */
+  .btn:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+body {
+    background-image: url(images/muziek\ achtergrond.jpg);
+    background-size: cover;
+} 
+
+
+2. Genres:
+
+img {
+    width: 200px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+p.begin{
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+p.naam {
+    font-weight: bold;
+    color: aliceblue;
+}
+
+p.links {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+p.link a {
+    color: white;
+    text-decoration: underline;
+    margin: 0 10px;
+  }
+  
+
+body {
+    background-image: url(images/muziek\ achtergrond.jpg);
+    background-size: cover;
+    }
+
+p.tekst {
+    color:aliceblue;
+}
+
+
+3. Artiesten:
+
+body {
+    background-image: url(images/muziek\ achtergrond.jpg);
+    background-size: cover;
+    }
+
+body {
+    color: white;
+}
+
+p.link a {
+    color: white;
+    text-decoration: underline;
+    margin: 0 10px;
+  }
