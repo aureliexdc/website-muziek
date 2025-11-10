@@ -1,0 +1,303 @@
+1. landingpage:
+  
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="muziek genres, rock, punk, pop" />
+  <meta name="description" content="Welkom bij AureSound, ontdek meer over verschillende genres van muziek en artiesten!" />
+  <title>AureSound | Homepage</title>
+  <link rel="shortcut icon" href="images/flavicon2.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<p class="intro">Welkom bij AureSound, ontdek meer over verschillende genres van muziek en artiesten!</p>
+
+<div class="titel">
+    <span class="zwart">AureSound</span>
+    <span class="streep">|</span>
+    <span class="wit">Homepage</span>
+</div>
+
+  <a href="indexmusic.html" class="btn">Genres</a>
+  <a href="info.html" class="btn btn-second">Artiesten</a>
+
+</body>
+</html>
+
+2. Genres:
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <title>AureSound | Genres</title>
+    <link rel="stylesheet" href="stylemusic.css">
+    <link rel="shortcut icon" href="/images/flavicon2.png">
+</head>
+
+<body>
+    <p class = "links">verdere links:</p>
+    <p class="link">
+        <a href="index.html">introductie</a>
+        <a href="info.html">artiesten</a>
+      </p>    
+    <p class= "begin">"De best gekende muziek genres"</p>
+
+
+
+    <img src="images/popmusic.webp" alt="">
+    <p class = "naam">1. Pop</p>
+    <p class= "tekst">"Breed genre met toegankelijke, aanstekelijke melodieën en een structuur van couplet en refrein"</p>
+    <video width="320" height="240" controls>
+        <source src="pop video.mp4" type="video/mp4">
+        </video>
+<p>
+    <audio controls>
+        <source src="pop music.mp3" type="audio/mp3">
+        </audio>
+</p>
+
+
+    <img src="images/rockmusic.jpg" alt="">
+    <p class = "naam">2. Rock</p>
+    <p class="tekst">"Energiek muziekgenre dat wordt gekenmerkt door elektrische gitaren, een sterke ritmesectie en krachtige zang"</p>
+    <audio controls>
+        <source src="rock music.mp3" type="audio/mp3">
+        </audio>
+</p>
+    <video width="320" height="240" controls>
+        <source src="rock video.mp4" type="video/mp4">
+        </video>
+<p>
+
+
+    <img src="images/RBmusic.jpg" alt="">
+    <p class = "naam">3. R&B (Rhythm and Blues)</p>
+    <p class="tekst">"Combineert vaak soul, pop, funk, hip-hop en elektronische muziek. Het heeft een duidelijke, ritmische beat en vaak emotionele zang."</p>
+    <video width="320" height="240" controls>
+        <source src="rnb video.mp4" type="video/mp4">
+        </video>
+<p>
+    <audio controls>
+        <source src="rnb music.mp3" type="audio/mp3">
+        </audio>
+</p>
+
+</body>
+</html>
+
+
+3. Artiesten:
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AureSound</title>
+    <meta name="description" content="Informatie over Ariana Grande, Queen en Beyoncé, hun muziek, hits en carrière.">
+    <meta name="keywords" content="Ariana Grande, Queen, Beyoncé, pop, rock, R&B, hits, muziek, artiesten, Freddie Mercury">
+    <link rel="icon" href="images/flavicon2.png" type="image/x-icon">
+    <link rel="stylesheet" href="styleinfo.css">
+</head>
+<body>
+
+    <header id="top">
+        <h1>Artiesten</h1>
+        <nav>
+            <p class="link">
+                <a href="index.html">introductie</a>
+                <a href="indexmusic.html">genres</a>
+              </p>   
+        </nav>
+    </header>
+
+    <!-- Ariana Grande -->
+    <div id="ariana" class="section">
+        <h2>1. Ariana Grande</h2>
+        <div class="artist-container">
+            <img src="ariana foto.webp" alt="Ariana Grande Foto" class="artist-image">
+            <div class="artist-text">
+                <ul>
+                    <li><strong>Volledige naam:</strong> Ariana Grande-Butera</li>
+                    <li><strong>Geboren:</strong> 26 juni 1993, Boca Raton, Florida, VS</li>
+                    <li><strong>Genre:</strong> Pop, R&B</li>
+                    <li><strong>Bekende kenmerken:</strong> Krachtige zang, hoge vocale bereik, melismatische stijl</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3>Bekende Hits</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hit</th>
+                    <th>Jaar van uitgave</th>
+                    <th>Opmerkingen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Problem</td>
+                    <td>2014</td>
+                    <td>Doorbraak hit met Iggy Azalea</td>
+                </tr>
+                <tr>
+                    <td>Bang Bang</td>
+                    <td>2014</td>
+                    <td>Samenwerking met Jessie J en Nicki Minaj</td>
+                </tr>
+                <tr>
+                    <td>Side to Side</td>
+                    <td>2016</td>
+                    <td>Met Nicki Minaj, zomerse pophit</td>
+                </tr>
+                <tr>
+                    <td>7 Rings</td>
+                    <td>2019</td>
+                    <td>Wereldwijde nummer 1 hit</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Media</h3>
+        <video controls width="480">
+            <source src="ariana video.mp4" type="video/mp4">
+        </video>
+        <audio controls>
+            <source src="ariana music.mp3" type="audio/mpeg">
+        </audio>
+        <p>Meer informatie: <a href="https://www.arianagrande.com" target="_blank">Ariana Grande Official</a></p>
+    </div>
+
+    <!-- Queen -->
+    <div id="queen" class="section">
+        <h2>2. Queen</h2>
+        <div class="artist-container">
+            <img src="queen foto.webp" alt="Queen bandfoto" class="artist-image">
+            <div class="artist-text">
+                <ul>
+                    <li><strong>Oorsprong:</strong> Londen, Engeland</li>
+                    <li><strong>Opgericht:</strong> 1970</li>
+                    <li><strong>Bandleden:</strong>
+                        <ul>
+                            <li>Freddie Mercury (zang, piano)</li>
+                            <li>Brian May (gitaar, zang)</li>
+                            <li>Roger Taylor (drums, zang)</li>
+                            <li>John Deacon (basgitaar)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Stijl:</strong> Rock, hardrock, glamrock, progressieve rock</li>
+                    <li><strong>Bekende kenmerken:</strong> Complexe harmonieën, theatrale optredens, krachtige zang van Freddie Mercury</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3>Bekende Hits</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hit</th>
+                    <th>Jaar van uitgave</th>
+                    <th>Opmerkingen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bohemian Rhapsody</td>
+                    <td>1975</td>
+                    <td>Iconisch rocknummer</td>
+                </tr>
+                <tr>
+                    <td>We Will Rock You</td>
+                    <td>1977</td>
+                    <td>Wereldberoemd stadionanthem</td>
+                </tr>
+                <tr>
+                    <td>We Are the Champions</td>
+                    <td>1977</td>
+                    <td>Vaak gebruikt bij sportevenementen</td>
+                </tr>
+                <tr>
+                    <td>Another One Bites the Dust</td>
+                    <td>1980</td>
+                    <td>Funkrock-invloed, wereldwijd succes</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Media</h3>
+        <video controls width="480">
+            <source src="queen video.mp4" type="video/mp4">
+        </video>
+        <audio controls>
+            <source src="queen music.mp3" type="audio/mpeg">
+        </audio>
+        <p>Meer informatie: <a href="https://www.queenonline.com" target="_blank">Queen Official</a></p>
+    </div>
+
+    <!-- Beyoncé sectie -->
+    <div id="beyonce" class="section">
+        <h2>3. Beyoncé</h2>
+        <div class="artist-container">
+            <img src="beyonce foto.avif" alt="Beyoncé Foto" class="artist-image">
+            <div class="artist-text">
+                <ul>
+                    <li><strong>Volledige naam:</strong> Beyoncé Giselle Knowles-Carter</li>
+                    <li><strong>Geboren:</strong> 4 september 1981, Houston, Texas, VS</li>
+                    <li><strong>Genre:</strong> Pop, R&B, Soul</li>
+                    <li><strong>Bekende kenmerken:</strong> Sterke zang, krachtige live-optredens, iconische muziekvideo's</li>
+                </ul>
+            </div>
+        </div>
+
+        <h3>Bekende Hits</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hit</th>
+                    <th>Jaar van uitgave</th>
+                    <th>Opmerkingen</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Crazy in Love</td>
+                    <td>2003</td>
+                    <td>Doorbraak solo hit</td>
+                </tr>
+                <tr>
+                    <td>Single Ladies (Put a Ring on It)</td>
+                    <td>2008</td>
+                    <td>Iconische choreografie</td>
+                </tr>
+                <tr>
+                    <td>Halo</td>
+                    <td>2009</td>
+                    <td>Bekend ballad nummer</td>
+                </tr>
+                <tr>
+                    <td>Formation</td>
+                    <td>2016</td>
+                    <td>Politiek statement, visueel sterk</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Media</h3>
+        <video controls width="480">
+            <source src="beyonce video.mp4"video/mp4">
+        </video>
+        <audio controls>
+            <source src="beyonce music.mp3" type="audio/mpeg">
+        </audio>
+        <p>Meer informatie: <a href="https://www.beyonce.com" target="_blank">Beyoncé Official</a></p>
+    </div>
+
+    <a href="#top">Terug naar top</a>
+
+</body>
+</html>
