@@ -172,7 +172,7 @@
         <p>Meer informatie: <a href="https://www.arianagrande.com" target="_blank">Ariana Grande Official</a></p>
     </div>
 
-    <!-- Queen -->
+
     <div id="queen" class="section">
         <h2>2. Queen</h2>
         <div class="artist-container">
@@ -238,7 +238,7 @@
         <p>Meer informatie: <a href="https://www.queenonline.com" target="_blank">Queen Official</a></p>
     </div>
 
-    <!-- Beyoncé sectie -->
+
     <div id="beyonce" class="section">
         <h2>3. Beyoncé</h2>
         <div class="artist-container">
